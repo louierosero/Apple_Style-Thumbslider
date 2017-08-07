@@ -1,0 +1,19 @@
+#carousel {
+    width:800px;
+    border:1px solid #222;
+    height:600px;
+    position:relative;
+    clear:both;
+    overflow:hidden;
+    background:#FFF;
+	margin: auto;
+  }
+
+#carousel img {
+    display: hidden; /* hide images until carousel prepares them */
+    cursor: pointer; /* not needed if you wrap carousel items in links */
+}
+  
+a {
+	text-decoration: none;
+}
